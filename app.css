@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  background-color: lightgray;
+}
+h1 {
+  color: yellow;
+  font-family: sans-serif;
+  background-color: lightseagreen;
+  padding: 5px 28px;
+  text-align: center;
+}
+
+#todoSection {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid lightgray;
+}
+
+input:focus, button:focus {
+  outline: 2px solid turquoise;
+}
+input[type="submit"] {
+  cursor: pointer;
+}
+button {
+  margin-left: 5px;
+  float: right;
+  border: none;
+  background-color: rgb(230, 110, 110);
+  cursor: pointer;
+  color: white
+}
+button:hover {
+  background-color: red;
+}
+
+#todoList {
+  width: 100%;
+  padding: 0;
+}
+li {
+  padding: 5px;
+  list-style-type: none;
+  margin: 5px 0;
+  background-color: rgb(173, 16, 173);
+  color: rgb(253, 251, 251);
+  font-size: 1.3em;
+}
+
+.crossed {
+  text-decoration: line-through;
+  color: rgb(197, 184, 184)
+}
+
